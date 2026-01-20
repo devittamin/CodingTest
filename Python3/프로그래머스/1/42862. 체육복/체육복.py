@@ -31,3 +31,6 @@ def solution(n, lost, reserve): (수업 들을 수 있는 학생 수 , 체육복
             n -= 1  # 끝까지 못 빌린 사람  1명 감소
 
     return n
+
+
+# discard 는 없어도 오류 안 뜸 
