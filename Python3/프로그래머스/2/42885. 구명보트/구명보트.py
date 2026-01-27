@@ -17,3 +17,30 @@ def solution(people, limit):
         b-=1 # 덜뚱뚱
     # return answer : 두명 타는 것만 고려함
     return len(people)-answer
+
+
+# 수빈님 풀이 : 덱했을때 pop 하면 O(1) / list 하면 시간초과 
+
+from collections import deque
+
+def solution(people, limit):
+    answer = 0
+    people.sort() #정렬하기
+    people = deque(people)
+    #print (people) 
+    
+    while len(people) > 0:
+        if len(people) == 1: # 뚱뚱이 애초부터 뺌
+            people.pop()
+            answer = answer + 1 
+        else:
+            if people[0] + people[-1] > limit:
+                people.pop()
+                answer = answer + 1
+            else:
+                people.popleft()  # 그래서 popleft 로
+                # people.pop(0) 제일 둘러보고 왼쪽 빼면 O(n)-> 시간초과 
+                people.pop()
+                answer = answer + 1
+
+    return answer
