@@ -39,7 +39,7 @@ def solution(people, limit):
                 answer = answer + 1
             else:
                 people.popleft()  # 그래서 popleft 로
-                # people.pop(0) 제일 둘러보고 왼쪽 빼면 O(n)-> 시간초과 
+                # people.pop(0) 제일 둘러보고 왼쪽 빼면 O(n)-> 시간초과 pop(0)는 느리당 
                 people.pop()
                 answer = answer + 1
 
