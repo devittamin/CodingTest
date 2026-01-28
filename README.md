@@ -35,29 +35,4 @@ O(1) < O(log N) < O(N) < O(N log N) < O(N²) < O(2ᴺ) < O(N!)
 > 시간 복잡도를 결정한 뒤  
 > 알고리즘을 고른다.**
 
-## 알고리즘 유형
-
-### 기본
-- Brute Force
-- Implementation
-- Sorting
-
-### 탐색
-- Binary Search
-- Two Pointers
-- Sliding Window
-
-### 자료구조
-- Stack / Queue / Deque
-- HashMap / Set
-- Heap (Priority Queue)
-
-### 그래프
-- DFS / BFS
-
-### 그리디
-- Greedy Algorithm
-
-### 동적 계획법
-- Dynamic Programming (DP)
 
