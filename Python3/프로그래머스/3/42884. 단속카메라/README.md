@@ -54,3 +54,4 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+> ![KakaoTalk_Photo_2026-02-10-00-47-50](https://github.com/user-attachments/assets/aac62f15-42fb-4575-8825-70ce20222274)
