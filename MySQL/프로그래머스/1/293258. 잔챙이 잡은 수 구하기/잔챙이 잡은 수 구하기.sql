@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS FISH_COUNT
+FROM FISH_INFO
+WHERE LENGTH IS NULL; # SQL 에서 null 은 값이 아님 비교연산자 ㄴㄴ 
