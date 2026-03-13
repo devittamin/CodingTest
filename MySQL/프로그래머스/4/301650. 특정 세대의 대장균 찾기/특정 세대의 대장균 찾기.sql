@@ -8,7 +8,7 @@
 # ORDER BY C.ID ASC;
 
 
-# 다른 풀이 
+# 다른 풀이 : depth 가 깊어지고, 재귀일때 이런방식 가능 !!! 
 
 WITH RECURSIVE ECOLI_SEARCH AS (
     
