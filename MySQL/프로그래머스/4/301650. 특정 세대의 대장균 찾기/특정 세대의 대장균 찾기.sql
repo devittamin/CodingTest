@@ -8,7 +8,7 @@
 # ORDER BY C.ID ASC;
 
 
-
+# 다른 풀이 
 
 WITH RECURSIVE ECOLI_SEARCH AS (
     
